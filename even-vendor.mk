@@ -24,8 +24,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/even/proprietary/product/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wlan_drv_gen4m.ko \
     vendor/realme/even/proprietary/product/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wmt_chrdev_wifi.ko \
     vendor/realme/even/proprietary/product/vendor_overlay/30/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wmt_drv.ko \
-    vendor/realme/even/proprietary/etc/powercontable.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/powercontable.xml \
-    vendor/realme/even/proprietary/etc/powerscntbl.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/powerscntbl.xml \
+    vendor/realme/even/proprietary/etc/init/powercontable.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/powercontable.xml \
+    vendor/realme/even/proprietary/etc/init/powerscntbl.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/powerscntbl.xml \
 
 PRODUCT_COPY_FILES += \
     vendor/realme/even/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
