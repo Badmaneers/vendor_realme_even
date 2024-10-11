@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/even/proprietary/product/vendor_overlay/30/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/lib/modules/wmt_drv.ko \
     vendor/realme/even/proprietary/etc/init/powercontable.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/powercontable.xml \
     vendor/realme/even/proprietary/etc/init/powerscntbl.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/30/etc/powerscntbl.xml \
-
+    
 PRODUCT_COPY_FILES += \
     vendor/realme/even/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/realme/even/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
@@ -69,3 +69,4 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EngineerMode
+  
