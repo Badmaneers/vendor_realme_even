@@ -69,4 +69,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EngineerMode
-  
+
+#NFC
+PRODUCT_PACKAGES += \
+  vendor/realme/even/proprietary/vendor/etc/init/init.stnfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.stnfc.rc \
+  vendor/realme/even/proprietary/vendor/lib/libst54nfc_nci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libst54nfc_nci.so \
+  vendor/realme/even/proprietary/vendor/lib/libsn100nfc_nci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsn100nfc_nci.so \
+  vendor/realme/even/proprietary/vendor/lib/libnq330nfc_nci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnq330nfc_nci.so \
+  vendor/realme/even/proprietary/vendor/lib/libstnfc-nci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstnfc-nci.so
